@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - CV Anda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hamburger-icon"><span></span><span></span><span></span></div>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="assets/egie.jpg" alt="Foto Profil Egie Hariansyah" class="profile-pic">
+                <h2>Egie Hariansyah</h2>
+                <p>Web Developer</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="tentang.html">Tentang Saya</a></li>
+                    <li><a href="pendidikan.html">Pendidikan</a></li>
+                    <li><a href="pengalaman.html">Pengalaman & Keterampilan</a></li>
+                    <li><a href="portofolio.html">Portofolio</a></li>
+                    <li><a href="kontak.html" class="active">Kontak</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Content -->
+        <main class="content">
+            <section id="kontak">
+                <h2>Kontak</h2>
+                <p>Anda bisa menghubungi saya melalui:</p>
+                <ul>
+                    <li><strong>Email:</strong> hariansyahegie@gmail.com</li>
+                    <li><strong>Telepon:</strong> +62 858-6558-0124</li>
+                    <li><strong>Instagram:</strong> <a href="https://instagram.com/kucing_felita" target="_blank">kucing_felita</a></li>
+                </ul>
+
+                <h3>Kirim Pesan</h3>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Kirim Pesan</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Ethan Mutz</p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
